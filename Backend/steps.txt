@@ -1,1 +1,2 @@
-1. Creating model
+1.  Creating Employee entity in model
+2.  Setting up application.properties and testing it
