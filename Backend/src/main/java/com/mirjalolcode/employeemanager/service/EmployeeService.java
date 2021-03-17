@@ -5,12 +5,14 @@ import com.mirjalolcode.employeemanager.model.Employee;
 import com.mirjalolcode.employeemanager.repository.EmployeeRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
 
 @Service
 @AllArgsConstructor
+@Transactional
 public class EmployeeService {
 
     private final EmployeeRepository employeeRepository;

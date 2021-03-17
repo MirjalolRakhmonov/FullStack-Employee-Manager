@@ -3,3 +3,4 @@
 3.  Implementing repository and service package for Employee
 4.  Implementing CRUD operations
 5.  Handling Exceptions
+6.  Exposing the API (creating controller for Employee)
