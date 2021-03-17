@@ -2,3 +2,4 @@
 2.  Setting up application.properties and testing it
 3.  Implementing repository and service package for Employee
 4.  Implementing CRUD operations
+5.  Handling Exceptions

@@ -1,5 +1,6 @@
 package com.mirjalolcode.employeemanager.service;
 
+import com.mirjalolcode.employeemanager.exceptions.UserNotFoundException;
 import com.mirjalolcode.employeemanager.model.Employee;
 import com.mirjalolcode.employeemanager.repository.EmployeeRepository;
 import lombok.AllArgsConstructor;
