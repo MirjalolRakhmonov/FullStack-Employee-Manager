@@ -3,3 +3,4 @@
 2.  Creating employee.ts
 3.  Create Angular service to call REST APIs => ng generate service services/employee
 4.  Implementing CRUD operations (in employee.service.ts)
+5.  Adding components
