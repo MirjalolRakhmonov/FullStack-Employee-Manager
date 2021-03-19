@@ -1,2 +1,4 @@
           FRONTEND SIDE
 1.  ng new employeemanagerapp
+2.  Creating employee.ts
+3.  Create Angular service to call REST APIs => ng generate service services/employee

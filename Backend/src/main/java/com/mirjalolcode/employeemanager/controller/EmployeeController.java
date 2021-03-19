@@ -40,7 +40,6 @@ public class EmployeeController {
     @PutMapping("/update")
     public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee) {
         Employee updateEmployee = employeeService.updateEmployee(employee);
-
         return new ResponseEntity<>(updateEmployee, HttpStatus.OK);
     }
 
