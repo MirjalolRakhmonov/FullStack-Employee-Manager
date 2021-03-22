@@ -8,3 +8,4 @@
 7.  CORS Configuration
 8.  UI Part (using https://www.bootdey.com/snippets/view/bs4-contact-cards to 
        app.component.html and styles.css)
+9.  UI Modal Logic (app.component.ts, app.component.html and index.html)
