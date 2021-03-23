@@ -11,3 +11,6 @@
 9.  UI Modal Logic (app.component.ts, app.component.html and index.html)
 10. Angular Form (making a call to backend and save changes to database) Add Functionality
 11. Update Functionality
+12. Delete Functionality
+13. Showing No Employees notification only when there is no employee
+14. Search Functionality
