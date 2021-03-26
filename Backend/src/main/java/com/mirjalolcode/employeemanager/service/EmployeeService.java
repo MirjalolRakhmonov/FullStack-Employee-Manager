@@ -1,5 +1,6 @@
 package com.mirjalolcode.employeemanager.service;
 
+import com.mirjalolcode.employeemanager.config.AppConfig;
 import com.mirjalolcode.employeemanager.exceptions.UserNotFoundException;
 import com.mirjalolcode.employeemanager.model.Employee;
 import com.mirjalolcode.employeemanager.repository.EmployeeRepository;
@@ -16,6 +17,7 @@ import java.util.UUID;
 public class EmployeeService {
 
     private final EmployeeRepository employeeRepository;
+    private final AppConfig appConfig;
 
     public Employee addEmployee(Employee employee){
         employee.setEmployeeCode(UUID.randomUUID().toString());

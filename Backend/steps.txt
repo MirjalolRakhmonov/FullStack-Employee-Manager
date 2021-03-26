@@ -4,3 +4,4 @@
 4.  Implementing CRUD operations
 5.  Handling Exceptions
 6.  Exposing the API (creating controller for Employee)
+7. Preparing for Heroku cloud platform
